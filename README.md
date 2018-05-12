@@ -19,7 +19,7 @@ To create a new generation using 50 best from previous generation:
     		fatherIndex := random(0, 50)
     		father := best[fatherIndex]
     		child := []
-    		for gene in range(748):
+    		for gene in range(231):
     		
     			// Set parentage for gene:
     			parentRandom := random(0, 1)
