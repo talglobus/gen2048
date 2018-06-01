@@ -1,5 +1,5 @@
-RAND_FACTOR = 0.25
+import config
 
 
-def survival(fitness, randNum, randFactor=RAND_FACTOR):
-	return fitness * (randNum + randFactor)
+def survival(fitness, rand_num, rand_factor=config.RAND_FACTOR):
+	return fitness * (rand_num + rand_factor)
